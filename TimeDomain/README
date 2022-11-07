@@ -1,0 +1,2 @@
+Run the scramble.m to scramble and save the scrambled audio and key.txt file
+Run the descramble.m to descramble the scrambled audio and read the key.txt file

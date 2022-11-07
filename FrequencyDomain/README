@@ -1,0 +1,43 @@
+Usage: run at main.m
+
+Description:
+
+'main.m': 
+
+The whole pipeline of scrambler and descrambler and the visualization part.
+
+
+'check_param.m':
+
+Check whether the numbers of channels and value of permissible rate are valid.
+
+
+'get_seperate_order.m':
+
+Generate the order of filtering.
+
+
+'freq_separate.m':
+
+Given the order of filtering, separate the original frequency bands into sub frequency bands.
+
+
+'permutation.m':
+
+Randomly permutate the order of sub frequency bands.
+
+
+'freq_reassemble.m'
+
+Given they random permutated order of sub frequency bands, assemble the sub frequecy bannds.
+
+
+'scramble.m':
+
+The pipeline of scramble process: 1) freq_separate, 2) permutation, 3) freq_reassemble.
+
+
+'descramble.m'
+
+The pipeline of scramble process: 1) freq_separate, 2) permutation_recover, 3) freq_reassemble.
+
